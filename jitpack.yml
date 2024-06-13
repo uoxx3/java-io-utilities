@@ -1,0 +1,7 @@
+jdk:
+  - openjdk17
+before_install:
+  - chmod +x ./gradlew
+install:
+  - echo "Generating Library"
+  - ./gradlew library:publishToMavenLocal --stacktrace

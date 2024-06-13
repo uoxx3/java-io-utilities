@@ -1,0 +1,45 @@
+{
+  "name": "java-io-utilities",
+  "version": "1.0.0",
+  "group": "io.github.uoxx3",
+  "package": "uoxx3.io",
+  "build-info": {
+    "package-out": "uoxx3.io",
+    "file-name": "build.properties"
+  },
+  "publications": [
+    {
+      "type": "maven",
+      "name": "library-publication",
+      "component": "java",
+      "artifacts": [
+        {
+          "required": false,
+          "task-name": "sourceJar"
+        },
+        {
+          "required": false,
+          "task-name": "javadocJar"
+        }
+      ],
+      "pom": {
+        "url": "https://github.com/uoxx3/java-io-utilities.git",
+        "description": "",
+        "artifact-id": "java-io-utilities",
+        "licenses": [
+          {
+            "name": "MIT",
+            "value": "https://github.com/uoxx3/java-io-utilities/blob/main/LICENSE.md"
+          }
+        ],
+        "developers-ref": "developers.maven.json",
+        "scm": {
+          "url": "https://github.com/uoxx3/java-io-utilities.git",
+          "branch": "main",
+          "connection": "scm:git:git@github.com:uoxx3/java-io-utilities.git",
+          "connection-dev": "scm:git:git@github.com:uoxx3/java-io-utilities.git"
+        }
+      }
+    }
+  ]
+}
