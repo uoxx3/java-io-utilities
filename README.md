@@ -1,0 +1,1 @@
+[![](https://jitpack.io/v/uoxx3/java-io-utilities.svg)](https://jitpack.io/#uoxx3/java-io-utilities)
