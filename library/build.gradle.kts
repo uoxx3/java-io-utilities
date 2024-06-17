@@ -81,6 +81,7 @@ tasks.test {
  * ----------------------------------------------------- */
 
 dependencies {
+  implementation(libs.java.com.github.uoxx3.core.utilities)
   compileOnly(libs.java.org.jetbrains.annotations)
   
   // Testing libraries
